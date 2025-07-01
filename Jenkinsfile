@@ -1,11 +1,5 @@
 pipeline {
     agent any
-    triggers {
-        githubPullRequest()
-    }
-    environment {
-        // The API key will be injected as SOCKET_SECURITY_API_KEY
-    }
     stages {
         stage('Socket Scan') {
             when {
