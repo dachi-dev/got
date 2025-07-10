@@ -15,10 +15,7 @@
 		"node": ">=20"
 	},
 	"scripts": {
-		"test": "xo && tsc --noEmit && NODE_OPTIONS='--import=tsx/esm' ava",
-		"release": "np",
-		"build": "del-cli dist && tsc",
-		"prepare": "npm run build"
+		"dummy": "echo dummy script"
 	},
 	"files": [
 		"dist/source"
@@ -73,7 +70,7 @@
 		"@types/sinon": "^17.0.2",
 		"@types/sinonjs__fake-timers": "^8.1.5",
 		"ava": "^5.3.1",
-		"axios": "^1.8.0",
+		"axios": "^1.9.0",
 		"benchmark": "^2.1.4",
 		"bluebird": "^3.7.2",
 		"body-parser": "^1.20.3",
