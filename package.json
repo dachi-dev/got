@@ -67,7 +67,7 @@
 		"@types/pem": "^1.14.4",
 		"@types/readable-stream": "^4.0.14",
 		"@types/request": "^2.48.12",
-		"@types/sinon": "^17.0.3",
+		"@types/sinon": "^17.0.4",
 		"@types/sinonjs__fake-timers": "^8.1.5",
 		"ava": "^5.3.1",
 		"axios": "^1.9.0",
