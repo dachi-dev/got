@@ -7,7 +7,7 @@ triggerPaths:
 githubApp:
   enabled: true
   pullRequestAlertsEnabled: true # feature i'm trying to test
-  dependencyOverviewEnabled: false
+  dependencyOverviewEnabled: true
   projectReportsEnabled: true
   ignoreUsers: []
   disableCommentsAndCheckRuns: false
