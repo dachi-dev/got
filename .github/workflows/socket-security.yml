@@ -37,7 +37,7 @@ jobs:
           python-version: '3.12'
       
       - name: Install Socket CLI
-        run: pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple socketsecurity==2.3.0.dev1
+        run: pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple socketsecurity==2.3.0.dev2
       
       - name: Run Socket Security Scan
         env:
